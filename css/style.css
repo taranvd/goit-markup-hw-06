@@ -569,7 +569,6 @@ img {
 .page-footer {
 	display: flex;
 	align-items: baseline;
-	justify-content: space-between;
 }
 
 .footer-text {
@@ -595,13 +594,15 @@ img {
 	color: var(--footer-desc);
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	max-width: 264px;
+}
+
+.footer-social {
+	margin-right: 80px;
 }
 
 .footer-social-list {
 	display: flex;
 	gap: 16px;
-	margin-right: 80px;
 }
 
 .footer-social-item {
@@ -709,7 +710,8 @@ img {
 .modal {
 	width: 408px;
 	min-height: 576px;
-	padding: 20px;
+	padding: 72px 24px 24px;
+
 	background-color: #fff;
 	border-radius: 4px;
 	position: absolute;
@@ -722,7 +724,6 @@ img {
 }
 .modal-close {
 	display: block;
-	margin-bottom: 24px;
 	cursor: pointer;
 	border: none;
 	width: 24px;
@@ -754,7 +755,6 @@ img {
 }
 
 .modal-title {
-	margin-top: 48px;
 	margin-bottom: 16px;
 	font-weight: 500;
 	font-size: 16px;
@@ -804,7 +804,7 @@ img {
 
 .form-group span {
 	display: block;
-	margin-bottom: 8px;
+	padding-bottom: 4px;
 	font-size: 12px;
 	line-height: 1.33;
 	letter-spacing: 0.04em;
