@@ -652,7 +652,10 @@ img {
 }
 
 .footer-form-btn {
-	padding: 8px 64px 8px 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 24px;
 	border-radius: 4px;
 	border: none;
 	background-color: var(--btn-color);
@@ -681,16 +684,12 @@ img {
 }
 
 .footer-control {
-	position: relative;
 }
 
 .footer-btn-icon {
-	position: absolute;
 	width: 24px;
 	height: 24px;
-	right: 24px;
-	top: 60%;
-	transform: translateY(-50%);
+	margin-left: 16px;
 }
 
 /* ------- Footer style end ------- */
@@ -781,6 +780,7 @@ img {
 }
 
 .form-textarea {
+	margin-top: 4px;
 	resize: none;
 	padding: 10px 15px;
 	min-height: 120px;
@@ -804,7 +804,6 @@ img {
 
 .form-group span {
 	display: block;
-	padding-bottom: 4px;
 	font-size: 12px;
 	line-height: 1.33;
 	letter-spacing: 0.04em;
@@ -812,6 +811,7 @@ img {
 }
 
 .form-control {
+	margin-top: 4px;
 	position: relative;
 }
 
